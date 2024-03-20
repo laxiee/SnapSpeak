@@ -59,4 +59,7 @@ def screenshot_and_caption(key='f1'):
             generate_caption(screenshot, greedy=False)
             break
     screenshot_and_caption()
-screenshot_and_caption()
+
+
+if __name__ == "__main__":
+    screenshot_and_caption()
